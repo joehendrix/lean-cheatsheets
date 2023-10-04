@@ -6,7 +6,7 @@
 | Tool           | Lean           | Rust            | Haskell               | OCaML          | Coq                 | Isabelle/HOL       |
 | :---           | :---           | :---            | :---                  | :---           | :---                | :---               |
 | Installer      | [elan]         | [rustup]        | [ghcup]               | [opam]         | [Coq Platform]      |                    |
-| Build          | [lake]         | [cargo]         | [cabal], [stack]      | [dune]         | [dune]?             |                    |
+| Build          | [lake]         | [cargo]         | [cabal], [stack]      | [dune]         | [coq_makefile], [dune] (experimental)            |                    |
 | Execution      | [lean]         | [rustc]         | [ghc]                 | [OCaML]        | [Coq]               | [Isabelle]         |
 | Package Index  | [reservoir]    | [crates.io]     | [hackage], [stackage] | [ocaml index]  | [Coq Package Index] |                    |
 | Doc Generation | [doc-gen]      | [rustdoc]       | [haddock]             | [ocamldoc]     | [coqdoc]            |                    |
@@ -52,6 +52,7 @@
 [coqdoc]: https://coq.inria.fr/refman/using/tools/coqdoc.html
 [VSCoq]: https://github.com/coq-community/vscoq
 [coq stdlib]: https://coq.inria.fr/doc/V8.17.1/stdlib/
+[coq_makefile]: https://coq.inria.fr/refman/practical-tools/utilities.html#building-a-project-with-coqproject-overview
 
 [Isabelle]: https://isabelle.in.tum.de/
 [Isabelle/VSCode]: https://github.com/seL4/isabelle/tree/master/src/Tools/VSCode
