@@ -6,13 +6,13 @@
 | Tool           | Lean           | Rust            | Haskell               | OCaML          | Coq                 | Isabelle/HOL       |
 | :---           | :---           | :---            | :---                  | :---           | :---                | :---               |
 | Installer      | [elan]         | [rustup]        | [ghcup]               | [opam]         | [Coq Platform]      |                    |
-| Build          | [lake]         | [cargo]         | [cabal], [stack]      | [dune]         | [dune]?             |                    |
+| Build          | [lake]         | [cargo]         | [cabal], [stack]      | [dune]         | [coq_makefile], [dune] (experimental)            |                    |
 | Execution      | [lean]         | [rustc]         | [ghc]                 | [OCaML]        | [Coq]               | [Isabelle]         |
 | Package Index  | [reservoir]    | [crates.io]     | [hackage], [stackage] | [ocaml index]  | [Coq Package Index] |                    |
 | Doc Generation | [doc-gen]      | [rustdoc]       | [haddock]             | [ocamldoc]     | [coqdoc]            |                    |
 | Doc Index      |                | [docs.rs]       | [hackage]             | [ocaml index]  |                     |                    |
-| IDE Plugins    | [vscode-lean4] | [rust-analyzer] | [haskell lsp]         | [ocaml vscode] | [VSCoq]             | [Isabelle/VSCode]  |
-| Standard Lib   |                |                 | [Haskell base]        |                | [coq stdlib]        | [library][Isabelle library] |
+| IDE Plugins    | [vscode-lean4] | [rust-analyzer] | [haskell lsp]         | [ocaml vscode] | [VSCoq], [coq-lsp]             | [Isabelle/VSCode]  |
+| Standard Lib   |                |                 | [Haskell base]        |                | [coq stdlib], [stdpp]        | [library][Isabelle library] |
 
 [elan]: https://github.com/leanprover/elan
 [lake]: https://github.com/leanprover/lake
@@ -52,6 +52,9 @@
 [coqdoc]: https://coq.inria.fr/refman/using/tools/coqdoc.html
 [VSCoq]: https://github.com/coq-community/vscoq
 [coq stdlib]: https://coq.inria.fr/doc/V8.17.1/stdlib/
+[coq_makefile]: https://coq.inria.fr/refman/practical-tools/utilities.html#building-a-project-with-coqproject-overview
+[coq-lsp]: https://github.com/ejgallego/coq-lsp
+[stdpp]: https://gitlab.mpi-sws.org/iris/stdpp
 
 [Isabelle]: https://isabelle.in.tum.de/
 [Isabelle/VSCode]: https://github.com/seL4/isabelle/tree/master/src/Tools/VSCode
