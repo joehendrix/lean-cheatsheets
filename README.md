@@ -11,7 +11,7 @@
 | Package Index  | [reservoir]    | [crates.io]     | [hackage], [stackage] | [ocaml index]  | [Coq Package Index] |                    |
 | Doc Generation | [doc-gen]      | [rustdoc]       | [haddock]             | [ocamldoc]     | [coqdoc]            |                    |
 | Doc Index      |                | [docs.rs]       | [hackage]             | [ocaml index]  |                     |                    |
-| IDE Plugins    | [vscode-lean4] | [rust-analyzer] | [haskell lsp]         | [ocaml vscode] | [VSCoq]             | [Isabelle/VSCode]  |
+| IDE Plugins    | [vscode-lean4] | [rust-analyzer] | [haskell lsp]         | [ocaml vscode] | [VSCoq], [coq-lsp]             | [Isabelle/VSCode]  |
 | Standard Lib   |                |                 | [Haskell base]        |                | [coq stdlib]        | [library][Isabelle library] |
 
 [elan]: https://github.com/leanprover/elan
@@ -53,6 +53,7 @@
 [VSCoq]: https://github.com/coq-community/vscoq
 [coq stdlib]: https://coq.inria.fr/doc/V8.17.1/stdlib/
 [coq_makefile]: https://coq.inria.fr/refman/practical-tools/utilities.html#building-a-project-with-coqproject-overview
+[coq-lsp]: https://github.com/ejgallego/coq-lsp
 
 [Isabelle]: https://isabelle.in.tum.de/
 [Isabelle/VSCode]: https://github.com/seL4/isabelle/tree/master/src/Tools/VSCode
